@@ -45,17 +45,17 @@ int prim(int source)
 
 		for(int i = 0; i < adj[u].size(); i++)
 		{
-			int v = adj[u][i].first; // node
-		    int w = adj[u][i].second; // edge weight
+			 int v = adj[u][i].first; // node
+			 int w = adj[u][i].second; // edge weight
 
-		    if(vis[v]) continue;
+			 if(vis[v]) continue;
 
-		    if(cost[v]>w)
-		    {
-			cost[v] = w;
+			 if(cost[v]>w)
+			 {
+				cost[v] = w;
 
-			q.push(pii(w, v));
-		    }
+				q.push(pii(w, v));
+			 }
 		}
     	}
 
