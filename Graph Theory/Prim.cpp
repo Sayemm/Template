@@ -31,33 +31,33 @@ int prim(int source)
 	q.push(pii(0, source));
 
 	while(!q.empty())
-    {
-        int u = q.top().second;//node
-        int c = q.top().first; //cost
+    	{
+        	int u = q.top().second;//node
+		int c = q.top().first; //cost
 
-        q.pop();
+		q.pop();
 
-        if(vis[u]) continue;
+		if(vis[u]) continue;
 
-        vis[u] = true;
+		vis[u] = true;
 
-        ans += c;
+		ans += c;
 
-        for(int i = 0; i < adj[u].size(); i++)
-        {
-        	int v = adj[u][i].first; // node
-            int w = adj[u][i].second; // edge weight
+		for(int i = 0; i < adj[u].size(); i++)
+		{
+			int v = adj[u][i].first; // node
+		    int w = adj[u][i].second; // edge weight
 
-            if(vis[v]) continue;
+		    if(vis[v]) continue;
 
-            if(cost[v]>w)
-            {
-            	cost[v] = w;
+		    if(cost[v]>w)
+		    {
+			cost[v] = w;
 
-            	q.push(pii(w, v));
-            }
-        }
-    }
+			q.push(pii(w, v));
+		    }
+		}
+    	}
 
     return ans;
 }
