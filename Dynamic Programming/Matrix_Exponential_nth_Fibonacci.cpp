@@ -19,7 +19,8 @@ ll func(ll n)
     res[1][1] = res[2][2] = a[1][1] = a[1][2] = a[2][1] = 1;
     res[1][2] = res[2][1] = a[2][2] = 0;
 
-
+    // Inititally res = identity matrix and a = M
+    
     while(p>0) /// Binary Exponential Part
     {
         ll t[5][5];
