@@ -94,7 +94,7 @@ int main()
 		}
 	}
 
-	cout << ans << endl;
+	pf("%d\n", ans);
 
     return 0;
 }
