@@ -1,4 +1,4 @@
-// Works for staring node containing component
+// Works for starting node containing component
 // Complexity O(ElogE)
 
 #include <bits/stdc++.h>
