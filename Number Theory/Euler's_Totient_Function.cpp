@@ -38,4 +38,4 @@ int main()
     return 0;
 }
 
-// calculates phi(n) Mul P^(pow-1) * p
+// calculates phi(n) Mul P^(pow-1) * P
