@@ -38,7 +38,7 @@ void sieve(int n)
 
 int main()
 {
-    READ
+    // READ
     // WRITE
     optimize
 
@@ -57,7 +57,6 @@ int main()
             cout << i << " ";
         }
     }
-
-
+    
     return 0;
 }
