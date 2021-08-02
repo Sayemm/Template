@@ -37,3 +37,5 @@ int main()
 
     return 0;
 }
+
+// calculates phi(n)
