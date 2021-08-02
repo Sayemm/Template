@@ -44,6 +44,6 @@ int main()
 }
 
 // complexity O(nlogn)
-// n+ n/2 + n/3 + ....
+// n + n/2 + n/3 + ....
 // n (1 + 1/2 + 1/3 + ....)
 // n logn
