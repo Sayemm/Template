@@ -1,4 +1,4 @@
 # Number Theory
 
 ## Divisor
-Time Complexity = O(n)
+01. Time Complexity O(n) <br/>
