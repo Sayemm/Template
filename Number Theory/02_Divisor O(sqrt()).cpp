@@ -24,3 +24,5 @@ int main()
 
 	return 0;
 }
+
+// Complexity: O(sqrt(n))
