@@ -2,7 +2,7 @@
 
 #include <bits/stdc++.h>
 
-#define sz         100005
+#define sz         100006
 
 using namespace std;
 
